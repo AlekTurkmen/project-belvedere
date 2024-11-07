@@ -11,16 +11,17 @@
             margin: 0 auto;
         }
     </style>
-    <script>
-        // JavaScript to scroll to the center on load
-        window.onload = function() {
-            window.scrollTo((document.body.scrollWidth - window.innerWidth) / 2, 0);
-        };
-    </script>
+        <script>
+            document.addEventListener("DOMContentLoaded", function() {
+                setTimeout(function() {
+                    window.scrollTo((document.body.scrollWidth - window.innerWidth) / 2, 0);
+                }, 200); // Adjust the delay if necessary
+            });
+        </script>
 </head>
 <body style="background-color: #f5e9da; font-family: Arial, sans-serif; position: relative; width: 800px; margin: 0 auto;">
 
-    <!-- Heading -->
+    <!-- Heading -->    
     <h1 style="text-align: center; margin-top: 20px;"><br><br>What's up?<br>I'm Alek</h1>
     <br>
     <br>
